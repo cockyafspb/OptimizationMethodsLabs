@@ -49,7 +49,8 @@ def integral3(func, a, b):
 # примеры функций, над которыми будем проводить манипуляции
 def function1(x): 
     return x**3 + x**2 + x
-
+def function2(x):
+    return x**5 * math.exp(x - 1)
 # тут пишем то, что хотим посчитать и нажимаем зеленую кнопочку)
 print(derivative1(function1, 2))
 print(integral3(function1, 1, 2))
